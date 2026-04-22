@@ -221,7 +221,7 @@ Any issues or have suggestions, feel free to join our [Community](https://discor
 
 ## License
 
-Copyright (c) 2024-2025 The GPUStack authors
+Copyright (c) 2024-2026 The GPUStack authors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

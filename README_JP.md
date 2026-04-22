@@ -214,7 +214,7 @@ GPUStackへの貢献に興味がある場合は、[貢献ガイド](./docs/contr
 
 ## ライセンス
 
-Copyright (c) 2024-2025 The GPUStack authors
+Copyright (c) 2024-2026 The GPUStack authors
 
 Apache License, Version 2.0（「ライセンス」）に基づいてライセンスされます。
 ライセンスに準拠しない限り、このファイルを使用することはできません。

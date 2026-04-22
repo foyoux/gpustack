@@ -212,7 +212,7 @@ curl http://your_gpustack_server_url/v1/chat/completions \
 
 ## 许可证
 
-版权所有 (c) 2024-2025 GPUStack 作者
+版权所有 (c) 2024-2026 GPUStack 作者
 
 根据 Apache License, Version 2.0（"许可证"）授权；
 除非符合许可证，否则您不得使用此文件。
