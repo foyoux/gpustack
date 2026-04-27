@@ -1855,18 +1855,18 @@
           "type": "prometheus",
           "uid": "prometheus"
         },
-        "definition": "label_values(gpustack:cluster_info,cluster_name)",
+        "definition": "query_result(gpustack:cluster_info)",
         "includeAll": false,
         "label": "Cluster",
         "name": "cluster_name",
         "options": [],
         "query": {
           "qryType": 1,
-          "query": "label_values(gpustack:cluster_info,cluster_name)",
+          "query": "query_result(gpustack:cluster_info)",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 2,
-        "regex": "",
+        "regex": "/cluster_name=\"([^\"]+)\"/",
         "sort": 1,
         "type": "query"
       },
@@ -1882,7 +1882,7 @@
           "type": "prometheus",
           "uid": "prometheus"
         },
-        "definition": "label_values(gpustack:worker_status{cluster_name=\"$cluster_name\"},worker_name)",
+        "definition": "query_result(gpustack:worker_info{cluster_name=\"$cluster_name\"})",
         "includeAll": true,
         "label": "Worker",
         "multi": true,
@@ -1890,11 +1890,11 @@
         "options": [],
         "query": {
           "qryType": 1,
-          "query": "label_values(gpustack:worker_status{cluster_name=\"$cluster_name\"},worker_name)",
+          "query": "query_result(gpustack:worker_info{cluster_name=\"$cluster_name\"})",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
         "refresh": 2,
-        "regex": "",
+        "regex": "/worker_name=\"([^\"]+)\"/",
         "type": "query"
       }
     ]
