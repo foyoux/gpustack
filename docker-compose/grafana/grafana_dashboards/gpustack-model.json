@@ -3714,7 +3714,7 @@
           "query": "query_result(gpustack:model_info{cluster_name=\"$cluster_name\"})",
           "refId": "PrometheusVariableQueryEditor-VariableQuery"
         },
-        "refresh": 1,
+        "refresh": 2,
         "regex": "/model_name=\"([^\"]+)\"/",
         "type": "query"
       },
